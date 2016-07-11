@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+article {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid lightblue;
+  vertical-align: top;
+  margin: 10px 5px;
+}
+
+h1 {
+  border-bottom: 1px dotted lightgray;
+}
+
+h1, h3, p, div, footer {
+  padding: 0 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  display: block;
+  width: 250px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+section footer {
+  font-size: .75em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.availability {
+  background: gray;
+  color: yellow;
+}
