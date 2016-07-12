@@ -3,12 +3,32 @@
   font-family: sans-serif;
 }
 
+body {
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+div.image {
+  height: 250px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+div.description {
+  display: block;
+  height: 125px;
+  max-height: 100%;
+  overflow: scroll;
+}
+
 article {
   display: inline-block;
   width: 30%;
   border: 1px solid lightblue;
-  vertical-align: top;
   margin: 10px 5px;
+  padding-bottom: 10px;
 }
 
 h1 {
@@ -19,9 +39,8 @@ h1, h3, p, div, footer {
   padding: 0 10px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+h3 {
+  margin: .5em 0;
 }
 
 p {
@@ -29,14 +48,14 @@ p {
 }
 
 img {
-  display: block;
   width: 250px;
   max-width: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 section footer {
   font-size: .75em;
+  margin: .5em 0 0 0;
 }
 
 .centered {
